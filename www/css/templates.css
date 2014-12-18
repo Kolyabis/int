@@ -1,0 +1,120 @@
+.clear{
+	clear:both;
+}
+body { margin: 10px 0 0; background: #fff;  font: 16px "Trebuchet MS", Arial, Sans-Serif; color: #444; }
+.center{
+        /*height: 500px; /* можно заменить на min-height */
+        text-align: center;
+       }
+.clear{
+    clear:both;
+}
+.center  {
+    height: 420px;
+    width: 720px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #000000;
+    padding: 10px 15px 25px 15px;
+    border-radius: 55px;
+
+}
+.center:before { /* для IE8+ */
+    content: "";
+    /*display: inline-block;*/
+    min-height: inherit;
+    height: 100%;
+    vertical-align: middle;
+}
+#pageTitle{
+    text-align: center;
+    text-transform: uppercase; /* Заглавные буквы */
+    font-size: 2em;
+    color: #4F81BD;
+}
+#foto{
+    margin-bottom: 10px;
+}
+#old_vidpovid{
+    height: 30px;
+    background: #4F81BD;
+    color: #ffffff;
+    border: 2px solid #385D8A;
+    padding: 5px 10px 5px 10px;
+    float: left;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+#otstup{
+    margin-bottom: 1px;
+}
+#submit{
+    height: 30px;
+    background: #4F81BD;
+    color: #ffffff;
+    border: 2px solid #385D8A;
+    padding: 5px 10px 5px 10px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+.menu{
+    background: #4F81BD;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 1px 25px 1px 25px;
+}
+#goUser{
+    width: 440px;
+    float: right;
+}
+
+
+.content_wrapper {
+    max-width: 500px;
+    min-width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    float: right;
+    margin-right: 15px;
+}
+#responds {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#responds li {
+    list-style: none;
+    padding: 10px;
+    background: rgb(182, 232, 255);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    max-width: 400px;
+    font-family: arial;
+    font-size: 13px;
+    border: 1px solid #adaa9f;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -khtml-border-radius: 10px;
+}
+.del_wrapper {
+    float: right;
+}
+.form_style #contentText {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+.form_style #FormSubmit {
+    display: block;
+    background: #003366;
+    border: 1px solid #000066;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
